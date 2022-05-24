@@ -1,0 +1,176 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+* {
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #5193ff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #97D0FFFF;
+}
+
+div.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 40px 600px 40px 600px;
+}
+
+
+
+
+/* Header */
+.header {
+    overflow: hidden;
+    background-color: #ebebeb;
+    padding: 20px 10px;
+    height: 90px;
+}
+
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 17px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+#logo{
+    position:absolute;
+    left: 20px;
+}
+
+.header a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.header a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.header-right {
+    float: right;
+}
+
+/* HEader end */
+
+.myCheck {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.checkboxes {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+.pealkiri {
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: #f2f2f2;
+
+}
+.paragraph {
+    margin-left: 50px;
+    margin-right: 1300px;
+    margin-top: 20px;
+}
+
+.brmedium {
+    margin-top: 20px;
+}
+
+
+.placeholderimg {
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.placeholderimg1 {
+    margin-left: 600px;
+}
+
+
+.placheholderimg5 {
+    margin-right: 250px;
+}
+
+.paragraph1 {
+    text-align: center;
+    border-width: medium;
+    width: 700px;
+    margin-top: 30px;
+    margin-left: 600px;
+}
+
+
+.checkboxes {
+    text-align:center;
+}
+
+.checkboxes input{
+    margin: 0px 0px 0px 0px;
+}
+
+.checkboxes label{
+    margin: 0px 20px 0px 3px;
+}
+
+.checkboxtext {
+    text-align: ;
+}
+
+.eriala {
+    text-align: center;
+}
+
+.erialadiv {
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+}
+
+.otherspecialty {
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    padding: 20px;
+}
